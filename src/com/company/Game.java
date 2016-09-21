@@ -1,9 +1,5 @@
 package com.company;
 
-import jodd.json.JsonSerializer;
-
-import java.io.File;
-
 /**
  * Created by michaelplott on 9/21/16.
  */
@@ -13,10 +9,6 @@ public class Game {
     String opinion;
     String platform;
     boolean isOwned;
-
-    public Game () {
-
-    }
 
     public Game (String name, String studio, String opinion, String platform) {
         this.name = name;
