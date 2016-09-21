@@ -18,12 +18,11 @@ public class Game {
 
     }
 
-    public Game (String name, String studio, String opinion, String platform, boolean isOwned) {
+    public Game (String name, String studio, String opinion, String platform) {
         this.name = name;
         this.studio = studio;
         this.opinion = opinion;
         this.platform = platform;
-        this.isOwned = isOwned;
     }
 
     public String getName() {
@@ -44,6 +43,26 @@ public class Game {
 
     public boolean isOwned() {
         return isOwned;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setStudio(String studio) {
+        this.studio = studio;
+    }
+
+    public void setOpinion(String opinion) {
+        this.opinion = opinion;
+    }
+
+    public void setPlatform(String platform) {
+        this.platform = platform;
+    }
+
+    public void setOwned(boolean owned) {
+        isOwned = owned;
     }
 
     @Override
