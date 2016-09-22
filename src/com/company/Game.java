@@ -10,6 +10,10 @@ public class Game {
     String platform;
     boolean isOwned;
 
+    Game () {
+
+    }
+
     public Game (String name, String studio, String opinion, String platform) {
         this.name = name;
         this.studio = studio;
